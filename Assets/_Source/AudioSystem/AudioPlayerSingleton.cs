@@ -15,7 +15,7 @@ namespace AudioSystem
         {
             InitializtaionInstance();
 
-            BackgroundMusic();
+            PlayBackgroundMusic();
         }
         private void InitializtaionInstance()
         {
@@ -28,7 +28,7 @@ namespace AudioSystem
 
             Destroy(gameObject);
         }
-        private void BackgroundMusic()
+        private void PlayBackgroundMusic()
         {
             _audioSource = GetComponent<AudioSource>();
 

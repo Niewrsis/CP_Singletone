@@ -7,7 +7,7 @@ namespace InputSystem
     {
         [Header("Attrubtes")]
         [SerializeField] private KeyCode restartKey;
-
+    
         private SceneManagment _restart;
         private void Start()
         {
